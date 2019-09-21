@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profile: dev
+  application:
+      name: eurekatest-config-mj-dev
+---
+spring:
+  profiles: test
+  application:
+    name:  eurekatest-config-mj-test
